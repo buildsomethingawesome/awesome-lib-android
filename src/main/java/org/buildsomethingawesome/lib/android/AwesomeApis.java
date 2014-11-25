@@ -1,3 +1,5 @@
+package org.buildsomethingawesome.lib.android;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
