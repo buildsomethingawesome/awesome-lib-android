@@ -25,5 +25,8 @@
         <module name="awesome-lib-android" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="awesome-lib-android" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
