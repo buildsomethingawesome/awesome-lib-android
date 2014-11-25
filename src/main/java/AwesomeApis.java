@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class AwesomeApis {
-    public String getString(String url) {
+    public static String getString(String url) {
         // adapted from http://stackoverflow.com/a/10501619/308930
         try {
             URL u = new URL(url);
@@ -45,7 +45,7 @@ public class AwesomeApis {
         return null;
     }
 
-    public JSONArray getJSONArray(String url) {
+    public static JSONArray getJSONArray(String url) {
         String string = getString(url);
         try {
             return new JSONArray(string);
@@ -55,7 +55,7 @@ public class AwesomeApis {
         }
     }
 
-    public JSONObject getJSONObject(String url) {
+    public static JSONObject getJSONObject(String url) {
         String string = getString(url);
         try {
             return new JSONObject(string);
