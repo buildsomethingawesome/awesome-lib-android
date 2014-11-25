@@ -10,10 +10,8 @@ http://buildsomethingawesome.org/archive.html
 To include Awesome Lib in your project, make a Maven project and include this
 dependency:
 
-**THIS DOESN'T WORK YET BECAUSE THERE HASN'T BEEN A PUBLISHED RELEASE--STAY TUNED**
-
     <dependency>
       <groupId>org.buildsomethingawesome.lib</groupId>
       <artifactId>awesome-android</artifactId>
-      <version>1.0</version>
+      <version>0.0</version>
     </dependency>
