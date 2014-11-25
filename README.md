@@ -7,11 +7,7 @@ Future videos on the Build Something Awesome website will demonstrate how
 to use this library.  Episodes are archived at
 http://buildsomethingawesome.org/archive.html
 
-To include Awesome Lib in your project, make a Maven project and include this
-dependency:
+To include Awesome Lib in your project, add the following dependency in your
+`build.gradle` file:
 
-    <dependency>
-      <groupId>org.buildsomethingawesome.lib</groupId>
-      <artifactId>awesome-android</artifactId>
-      <version>0.0</version>
-    </dependency>
+    compile 'org.buildsomethingawesome.lib:awesome-android:0.0'
